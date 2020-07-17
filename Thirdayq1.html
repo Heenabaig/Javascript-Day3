@@ -1,0 +1,19 @@
+<html>
+<head>
+<h1>Day1</h1>
+<body>
+<input type = "integer" id="userInput">Enter text</input>
+<button onclick="isEven()">Submit</button>
+<script>
+function isEven() {
+    var number = document.getElementById("userInput").value;
+	if (number%2 == 0)
+		console.log("The number entered is:"+number, "number is even");
+	else
+		console.log("The number entered is:"+number, "number is odd");
+}
+
+</script>
+</body>
+</head>
+</html>
